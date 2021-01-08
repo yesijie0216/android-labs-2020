@@ -6,6 +6,19 @@
     android:layout_height="match_parent"
     tools:context=".Edit1814080903136Activity">
 
+
+    <EditText
+        android:id="@+id/label1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/label2"
+        android:hint="输入初始时间（时分秒）00:00:00" />
+    <EditText
+        android:id="@+id/label2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_cut"
+        android:hint="输入结束时间（时分秒）00:00:00" />
     <Button
         android:id="@+id/button_cut"
         android:layout_width="wrap_content"
@@ -29,4 +42,8 @@
         android:layout_height="wrap_content"
         android:src="@drawable/music"
         android:layout_below="@id/button_com"/>
+
+
+
+
 </RelativeLayout>
